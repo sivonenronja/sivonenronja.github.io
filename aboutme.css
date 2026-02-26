@@ -1,0 +1,116 @@
+
+div { border: 20px solid transparent;
+    border-image: url(Header\ kukat.png) 30 stretch ;}
+
+
+
+
+
+   
+   
+body {
+  
+  background-image: url(Header\ kukat.png);
+  background-color: #FFC2D4;
+  height:100%;
+     
+      background-repeat: repeat-x;
+      
+      background-size: 980px;
+      background-position: top-center;
+    }
+
+
+
+
+
+
+    
+.kukka{
+  max-width: 300px;
+   
+
+
+}
+
+
+
+nav{  text-align:center;}
+nav a{
+  flex-direction: row;
+  margin: 5.5rem;
+ 
+  color:rgb(250, 250, 250);
+  text-decoration: none;
+  font-weight: 700;
+  transition: opacity 0.2s ease;
+
+  gap: 0;
+  justify-content: space-between;
+ 
+
+}
+
+
+
+.kuva-container{
+  display: flex;
+  justify-content: flex-end;   /* oikealle */
+  align-items: center;         /* pystysuunnassa keskelle */
+  height: 100vh;               
+
+
+
+
+
+}
+
+.aboutme-wrapper {
+  display: flex;              /* asettelee sisällön vierekkäin */
+  justify-content: space-between; /* vasen teksti, oikea kuva */
+  align-items: center;        /* keskittää pystysuunnassa */
+  height: 100vh;              /* vie koko näytön korkeuden */
+  padding: 0 5%;              /* pieni sivutäys sivuille */
+  box-sizing: border-box;
+}
+
+
+.kuva1 {
+ 
+  width: 400px;
+  height: auto;
+ align-items: right;
+  justify-content: right;
+}
+
+
+
+h1 {
+margin: auto;
+height: 80vh;
+display: flex;
+justify-content: left;
+align-items:center;
+font-size: 350%;
+}
+h1 {text-align:left;
+}
+
+article { text-align: left;
+align-items: center;
+justify-content: left;
+font-size: 150%;
+height: 80vh;
+color: black;
+
+width:60%;
+  max-width: 800px;
+  margin: 0 auto; /*lohkon keskitys*/
+  border: 3px rgb(252, 156, 204) solid; /* reunus*/
+  
+  padding: 20px; /*tyjä tila reunan ja sisällön väliin*/
+  
+  
+  border-radius: 20px ; /*kulman pyöristys*/
+}
+
