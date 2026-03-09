@@ -1,0 +1,112 @@
+*{box-sizing: border-box ;} /* pitää elementit suunnitellun kokoisina*/
+
+
+h1{color:rgb(122, 37, 87);
+text-align: center; /* lohkon keskitys*/
+text-shadow: 8px 8px 8px rgb(252, 252, 252) ;
+    
+
+
+}
+h2{
+    
+    
+    color:rgb(102, 48, 78)
+
+}
+h1 {
+    font-family: 'Great Vibes',cursive;
+    font-weight: normal;
+  }
+
+
+  h2,h3 {
+    font-family: 'Dancing Script', cursive;
+   }
+  
+
+
+
+body{ background-image: url(uus\ taustakuva.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+nav{text-align:center;
+    padding: 15px;
+
+}
+nav a {color: aliceblue;
+    background-color: rgb(236, 108, 172);
+    padding: 10xp;
+    border: 3xp solid cornflowerblue;
+    text-decoration: none;
+    display: inline-block;
+    width: 8em;
+    box-shadow: 8px 8 px 9px rgb(68, 27, 78);
+    border-radius: 8px;
+
+
+}
+
+a:hover { color: aliceblue; background-color: rgb(248, 195, 228);
+
+}
+
+
+#ekakuva{width: 100%;
+        max-width: 800px;}
+figure{text-align: center;}
+
+.pallot img{width:30% ;  
+            max-width: 350px;
+            border-radius:50% ; /*pyöristää reunat*/
+            border: 2px rgb(129, 55, 55); /*reunus*/
+            padding: 1px; /* tyjää tilaa reunuksen ja kuvan välillä*/
+            background-color: aliceblue;
+            margin:1px ;
+
+
+
+
+}
+
+
+
+
+main{
+    
+  width:80%;
+  max-width: 1200px;
+  margin: auto; /*lohkon keskitys*/
+  border: 3px rgb(219, 147, 195) solid; /* reunus*/
+  padding: 20px; /*tyjä tila reunan ja sisällön väliin*/
+  background-color: rgba(248, 205, 234, 0.85) ;
+  box-shadow: 8px 8px 8px rgb(12, 12, 12) ; /*heittovarjo, oikea ja alas*/
+  border-radius: 30px ; /*kulman pyöristys*/
+
+
+
+}
+p{color:rgb(12, 12, 12);}
+
+h4{
+
+font-family:'Courier New', Courier, monospace;
+
+}
+h3{
+    color:rgb(138, 61, 131); 
+    font-family: 'Dancing Script', cursive;
+
+
+
+}
+
+main{width: 40%;
+    max-width:800px;
+    
+
+}
